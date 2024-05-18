@@ -1,14 +1,14 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { SearchComponent } from './search/search.component';
+import { MovieDetailComponent } from './movie-detail/movie-detail.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, SearchComponent],
+  imports: [RouterOutlet, MovieDetailComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'base-app';
+  title = 'child-app';
 }
